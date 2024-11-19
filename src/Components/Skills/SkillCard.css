@@ -1,0 +1,83 @@
+.mainskillcardbody {
+    text-align: top;
+    /* border: 0.2px solid rgba(255, 255, 255, 0.5); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: top; 
+    margin: 5% 10% 0 10%;
+    flex-wrap: wrap;
+  
+}
+
+
+.childskillcardbody {
+    /* border: 0.2px solid rgba(255, 255, 255, 0.5); */
+    display: flex;
+    justify-content: space-around; 
+    align-items: top; 
+    flex-wrap: wrap;
+  
+}
+
+
+.skilltextbody {
+    border: 0.2px solid rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(30px);
+    border-radius: 30px;
+    
+  
+}
+
+
+.singleskillcardbody {
+    backdrop-filter: blur(30px);
+    color: gray;
+    border-radius: 10px;
+    border: 0.2px solid rgba(255, 255, 255, 0.5); 
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around; 
+    align-items: center; 
+    margin: 2% 2% 2% 2%;
+    flex-wrap: wrap;
+    width: 250px ;
+    height: 350px ;
+  
+}
+
+.cardafterhover {
+    align-items: center;
+    justify-content: center; 
+    text-align: center ;
+    color: white;
+    width: 100% ;
+    height: 100% ;
+    top: 0;
+    right: -110%;
+    position: absolute;
+    background: rgb(20, 49, 107);
+    backdrop-filter: blur(30px) ;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+
+}
+
+.singleskillcardbody:hover .cardafterhover {
+    right: 0;
+}
+
+
+
+
+.skills_heading{
+    text-align-last: center;
+    /* font-size: 10px; */
+    color: white;
+    /* font-size: 2.5rem; */
+    /* margin: 5% 10% 5% 10%; */
+    /* margin: 5% 10% 0 10%; */
+   
+    
+  }
